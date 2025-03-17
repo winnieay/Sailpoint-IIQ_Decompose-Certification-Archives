@@ -3,8 +3,8 @@ The Sailpoint IIQ  provides functionality to archive the certification campaign.
 
 
 Scenario:
-MSSQL
-SailPoint IdentityIQ
+* MSSQL
+* SailPoint IdentityIQ
 
 
 Step One - Export the archived certification form DB
