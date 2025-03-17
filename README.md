@@ -8,12 +8,12 @@ SailPoint IdentityIQ
 
 
 Step 1 - Export the archived certification form DB
-
+images
 1. Go the Table identityiq.spt._certification_achive.
 2. Right click and select the option "Select Top 1000 Rows". And then Execute the sql script.
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/winnieay/Sailpoint-IIQ_Decompose-Certification-Archives/tree/main/images/1.png)
 3. In the result console, find and select the column named "archive"
 4. Right click and sava the archived data as csv file. 
 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![alt text](https://github.com/winnieay/Sailpoint-IIQ_Decompose-Certification-Archives/tree/main/images/2.png)
