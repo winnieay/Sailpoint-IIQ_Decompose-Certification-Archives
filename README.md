@@ -18,6 +18,6 @@ images
 
 
 Step Two - Change the file directory in the PowerShell script
-1.Input CSV file directory
-2.Output CSV file directory
+1. Input CSV file directory
+2. Output CSV file directory
   <br /><img src="images/3.png" width="350" ><br />
