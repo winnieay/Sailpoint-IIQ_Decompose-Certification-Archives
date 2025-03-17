@@ -7,14 +7,16 @@ MSSQL
 SailPoint IdentityIQ
 
 
-Step 1 - Export the archived certification form DB
+Step One - Export the archived certification form DB
 images
 1. Go the Table identityiq.spt._certification_achive.
 2. Right click and select the option "Select Top 1000 Rows". And then Execute the sql script.
-3. <img src="images/1.png" width="250" ><br />
-![alt text](https://github.com/winnieay/Sailpoint-IIQ_Decompose-Certification-Archives/tree/main/images/1.png)
+   <img src="images/1.png" width="300" ><br />
 4. In the result console, find and select the column named "archive"
 5. Right click and sava the archived data as csv file. 
+  <img src="images/2.png" width="350" ><br />
 
 
-![alt text](https://github.com/winnieay/Sailpoint-IIQ_Decompose-Certification-Archives/tree/main/images/2.png)
+Step Two - Change the file directory in the PowerShell script
+1.Input CSV file directory
+2.Output CSV file directory
