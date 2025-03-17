@@ -1,0 +1,217 @@
+﻿id,created,modified,assigned_scope_path,name,certification_id,certification_group_id,signed,expiration,creator,comments,archive,immutable,owner,assigned_scope,significant_modified
+0ac91e6b953b1e0181953be029ff0000,1740466301442,NULL,NULL,Targeted Access Review for spadmin,0ac91e6b953a1cd981953bd1e7db043f,0ac91e6b953a1cd981953bd1e69c043e,1740465420104,1740468972110,spadmin,NULL,"<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Certification PUBLIC ""sailpoint.dtd"" ""sailpoint.dtd"">
+<Certification activated=""1740465372110"" automaticClosingDate=""1740472572110"" certificationDefinitionId=""0ac91e6b953a1cd981953bd1e369043c"" complete=""true"" completedEntities=""2"" completedItems=""11"" created=""1740465367006"" creator=""spadmin"" entitlementGranularity=""Value"" expiration=""1740468972110"" finished=""1740465438891"" id=""0ac91e6b953a1cd981953bd1e7db043f"" inlineChildCertifications=""true"" itemPercentComplete=""100"" modified=""1740465439310"" name=""Targeted Access Review for spadmin"" nextPhaseTransition=""1742884574575"" nextRemediationScan=""1740551839126"" percentComplete=""100"" phase=""Remediation"" remediationsKickedOff=""1"" shortName=""Access Review for spadmin"" signed=""1740465420104"" significantModified=""1740465439310"" totalEntities=""2"" totalItems=""11"" type=""Focused"">
+  <Attributes>
+    <Map>
+      <entry key=""automateSignOffOnReassignment"" value=""false""/>
+      <entry key=""certificationDelegationReview"" value=""false""/>
+      <entry key=""notifyRemediation"" value=""false""/>
+      <entry key=""requireReassignmentCompletion"" value=""true""/>
+    </Map>
+  </Attributes>
+  <CertificationGroups>
+    <Reference class=""sailpoint.object.CertificationGroup"" id=""0ac91e6b953a1cd981953bd1e69c043e"" name=""Targeted Certification [2/24/25, 10:36:06 PM PST] - archive test""/>
+  </CertificationGroups>
+  <Certifiers>
+    <String>spadmin</String>
+  </Certifiers>
+  <PhaseConfig>
+    <CertificationPhaseConfig enabled=""true"" phase=""Active"">
+      <Duration>
+        <TimeDuration amount=""1"" scale=""Hour""/>
+      </Duration>
+    </CertificationPhaseConfig>
+    <CertificationPhaseConfig enabled=""true"" phase=""Remediation"">
+      <Duration>
+        <TimeDuration amount=""1"" scale=""Month""/>
+      </Duration>
+    </CertificationPhaseConfig>
+  </PhaseConfig>
+  <SignOffHistory>
+    <SignOffHistoryItem created=""1740465420109"" date=""1740465420103"" id=""0ac91e6b953a1cd981953bd2b74d045e"" signerDisplayName=""The Administrator"" signerId=""0ac91e6b94f815aa8194f876897600ea"" signerName=""spadmin""/>
+  </SignOffHistory>
+  <CertificationStatistics completedEntities=""2"" completedItems=""11"" exceptionsApproved=""10"" exceptionsRemediated=""1"" itemPercentComplete=""100"" percentComplete=""100"" remediationsKickedOff=""1"" totalEntities=""2"" totalExceptions=""11"" totalItems=""11""/>
+  <CertificationEntity completed=""1740465417478"" compositeScore=""251"" created=""1740465369881"" firstname=""Karen"" id=""0ac91e6b953a1cd981953bd1f318044a"" identity=""ACWAD\karen.anderson"" lastname=""Anderson"" modified=""1740465417490"" newUser=""true"" significantModified=""1740465417490"" snapshotId=""0ac91e6b953a1cd981953bd1f2d90443"" summaryStatus=""Complete"" targetDisplayName=""Karen Anderson"" targetId=""0ac91e6b94f819538194f909477e00b6"" targetName=""ACWAD\karen.anderson"" type=""Identity"">
+    <CertificationItem completed=""1740465417461"" created=""1740465369845"" exceptionApplication=""JDBC_Demo"" exceptionAttributeName=""role"" exceptionAttributeValue=""Quality Assurance"" id=""0ac91e6b953a1cd981953bd1f2f00444"" modified=""1740465436399"" significantModified=""1740465436399"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415345"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415324"" id=""0ac91e6b953a1cd981953bd2a4b10453"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>JDBC_Demo</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""JDBC_Demo"" displayName=""karen.anderson@acwad.demo.net"" nativeIdentity=""karen.anderson@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""role"" value=""Quality Assurance""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417462"" created=""1740465369849"" exceptionApplication=""CSV - Logical Group"" exceptionAttributeName=""role"" exceptionAttributeValue=""Quality Assurance"" id=""0ac91e6b953a1cd981953bd1f2f80445"" modified=""1740465436433"" significantModified=""1740465436433"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415540"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415539"" id=""0ac91e6b953a1cd981953bd2a5740454"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>CSV - Logical Group</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""CSV - Logical Group"" displayName=""karen.anderson@acwad.demo.net"" nativeIdentity=""karen.anderson@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""role"" value=""Quality Assurance""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417463"" created=""1740465369852"" exceptionApplication=""KingBill"" exceptionAttributeName=""Group"" exceptionAttributeValue=""Quality Assurance"" id=""0ac91e6b953a1cd981953bd1f2fb0446"" modified=""1740465436638"" significantModified=""1740465436638"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415603"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415599"" id=""0ac91e6b953a1cd981953bd2a5b30455"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>KingBill</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""KingBill"" displayName=""648291"" nativeIdentity=""karen.anderson@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""Group"" value=""Quality Assurance""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417463"" created=""1740465369854"" exceptionApplication=""KingBill"" exceptionAttributeName=""access_credit"" exceptionAttributeValue=""true"" id=""0ac91e6b953a1cd981953bd1f2fe0447"" modified=""1740465436696"" significantModified=""1740465436696"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415721"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415679"" id=""0ac91e6b953a1cd981953bd2a6290456"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>KingBill</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""KingBill"" displayName=""648291"" nativeIdentity=""karen.anderson@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""access_credit"" value=""true""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417463"" created=""1740465369857"" exceptionApplication=""ASM"" exceptionAttributeName=""Group"" exceptionAttributeValue=""Quality Assurance"" id=""0ac91e6b953a1cd981953bd1f3000448"" modified=""1740465436736"" significantModified=""1740465436736"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415760"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415759"" id=""0ac91e6b953a1cd981953bd2a6500457"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>ASM</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""ASM"" displayName=""karen.anderson@acwad.demo.net"" nativeIdentity=""648291"">
+          <Attributes>
+            <Map>
+              <entry key=""Group"" value=""Quality Assurance""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417463"" created=""1740465369870"" exceptionApplication=""ProjectW"" exceptionAttributeName=""role"" exceptionAttributeValue=""Quality Assurance"" id=""0ac91e6b953a1cd981953bd1f3050449"" modified=""1740465436783"" significantModified=""1740465436783"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415776"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415775"" id=""0ac91e6b953a1cd981953bd2a6600458"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>ProjectW</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""ProjectW"" displayName=""648291"" nativeIdentity=""karen.anderson@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""role"" value=""Quality Assurance""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+  </CertificationEntity>
+  <CertificationEntity completed=""1740465417460"" compositeScore=""251"" created=""1740465370740"" firstname=""Ken"" id=""0ac91e6b953a1cd981953bd1f6740451"" identity=""ACWAD\ken.kong"" lastname=""Kong"" modified=""1740465439279"" newUser=""true"" significantModified=""1740465439279"" snapshotId=""0ac91e6b953a1cd981953bd1f658044b"" summaryStatus=""Complete"" targetDisplayName=""Ken Kong"" targetId=""0ac91e6b94f819538194f90949d700ba"" targetName=""ACWAD\ken.kong"" type=""Identity"">
+    <CertificationItem completed=""1740465417143"" created=""1740465370718"" exceptionApplication=""JDBC_Demo"" exceptionAttributeName=""role"" exceptionAttributeValue=""Marketing"" id=""0ac91e6b953a1cd981953bd1f65d044c"" modified=""1740465437472"" significantModified=""1740465437472"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465415799"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465415799"" id=""0ac91e6b953a1cd981953bd2a6770459"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>JDBC_Demo</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""JDBC_Demo"" displayName=""ken.kong@acwad.demo.net"" nativeIdentity=""ken.kong@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""role"" value=""Marketing""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417143"" created=""1740465370733"" exceptionApplication=""KingBill"" exceptionAttributeName=""Group"" exceptionAttributeValue=""Marketing"" id=""0ac91e6b953a1cd981953bd1f66c044d"" modified=""1740465438547"" significantModified=""1740465438547"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465416400"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465416398"" id=""0ac91e6b953a1cd981953bd2a8cf045a"" modified=""1740465438597"" ownerName=""spadmin"" remediationAction=""OpenWorkItem"" remediationKickedOff=""true"" reviewed=""true"" significantModified=""1740465438597"" status=""Remediated"" workItem=""0ac91e6b953a1cd981953bd2ff440472"">
+        <Description>Remove the 'KingBill' entitlement on  'Ken Kong'</Description>
+        <RemediationPlan>
+          <ProvisioningPlan>
+            <AccountRequest application=""KingBill"" nativeIdentity=""ken.kong@acwad.demo.net"" op=""Modify"">
+              <AttributeRequest name=""Group"" op=""Remove"" value=""Marketing""/>
+            </AccountRequest>
+            <Requesters>
+              <Reference class=""sailpoint.object.Identity"" id=""0ac91e6b94f815aa8194f876897600ea"" name=""spadmin""/>
+            </Requesters>
+          </ProvisioningPlan>
+        </RemediationPlan>
+      </CertificationAction>
+      <ApplicationNames>
+        <String>KingBill</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""KingBill"" displayName=""482314"" nativeIdentity=""ken.kong@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""Group"" value=""Marketing""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417143"" created=""1740465370735"" exceptionApplication=""KingBill"" exceptionAttributeName=""access_credit"" exceptionAttributeValue=""false"" id=""0ac91e6b953a1cd981953bd1f66f044e"" modified=""1740465437556"" significantModified=""1740465437556"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465416419"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465416418"" id=""0ac91e6b953a1cd981953bd2a8e3045b"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>KingBill</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""KingBill"" displayName=""482314"" nativeIdentity=""ken.kong@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""access_credit"" value=""false""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417143"" created=""1740465370737"" exceptionApplication=""ASM"" exceptionAttributeName=""Group"" exceptionAttributeValue=""Marketing"" id=""0ac91e6b953a1cd981953bd1f671044f"" modified=""1740465437581"" significantModified=""1740465437581"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465416453"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465416450"" id=""0ac91e6b953a1cd981953bd2a905045c"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>ASM</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""ASM"" displayName=""ken.kong@acwad.demo.net"" nativeIdentity=""482314"">
+          <Attributes>
+            <Map>
+              <entry key=""Group"" value=""Marketing""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+    <CertificationItem completed=""1740465417143"" created=""1740465370739"" exceptionApplication=""ProjectW"" exceptionAttributeName=""role"" exceptionAttributeValue=""Marketing"" id=""0ac91e6b953a1cd981953bd1f6730450"" modified=""1740465437657"" significantModified=""1740465437657"" summaryStatus=""Complete"" type=""Exception"">
+      <CertificationAction actorDisplayName=""The Administrator"" actorName=""spadmin"" created=""1740465416493"" decisionCertificationId=""0ac91e6b953a1cd981953bd1e7db043f"" decisionDate=""1740465416491"" id=""0ac91e6b953a1cd981953bd2a92d045d"" reviewed=""true"" status=""Approved""/>
+      <ApplicationNames>
+        <String>ProjectW</String>
+      </ApplicationNames>
+      <ExceptionEntitlements>
+        <EntitlementSnapshot application=""ProjectW"" displayName=""482314"" nativeIdentity=""ken.kong@acwad.demo.net"">
+          <Attributes>
+            <Map>
+              <entry key=""role"" value=""Marketing""/>
+            </Map>
+          </Attributes>
+        </EntitlementSnapshot>
+      </ExceptionEntitlements>
+    </CertificationItem>
+  </CertificationEntity>
+</Certification>
+",0,NULL,NULL,NULL
