@@ -3,6 +3,8 @@ The Sailpoint IIQ  provides functionality to archive the certification campaign.
 
 The Powershell decomposeArchivedCert.ps1 is for the sample archived certification (certificationData.csv). In that csv file, only one certification campaign is included.
 And for the Powershell Complex_decomposeArchivedCert.ps1, it is used for the condiction that multiple certification campaign archived in signle csv file.
+
+
 To be clear, the upload powershell code is the basis for processing archived certification activity data. If more customized reports are required, modifications will be required.
 
 ### Scenario:
